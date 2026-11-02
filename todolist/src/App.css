@@ -1,0 +1,5 @@
+:root { --surface: #ffffff; --surface-muted: #f7f7fb; --border: #e8e8f0; --text: #20212d; --muted: #6f7180; --primary: #635bff; --primary-dark: #4c43e6; --shadow: 0 18px 48px rgba(39, 37, 82, 0.08); }
+.app-shell { min-height: 100vh; color: var(--text); }
+.app-loading { display: grid; min-height: 100vh; place-items: center; color: var(--muted); font-weight: 700; }
+.app-toast { position: fixed; z-index: 5; right: 24px; bottom: 24px; display: flex; align-items: center; gap: 10px; max-width: min(360px, calc(100vw - 32px)); padding: 11px 13px; border: 1px solid; border-radius: 9px; background: #fff; box-shadow: var(--shadow); font-size: 0.78rem; }
+.app-toast.success { border-color: #bdeacb; color: #197547; }.app-toast.error { border-color: #ffd0d9; color: #a62f4a; }.app-toast button { border: 0; border-radius: 6px; background: #fff0f2; color: inherit; font-weight: 750; }

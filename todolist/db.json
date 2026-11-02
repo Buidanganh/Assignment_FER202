@@ -1,0 +1,104 @@
+{
+  "subjects": [
+    {
+      "id": "s1",
+      "name": "FER202",
+      "description": "ReactJS",
+      "semester": "Fall 2026",
+      "status": "active",
+      "color": "#635BFF"
+    },
+    {
+      "id": "subject-web",
+      "name": "Lập trình Web",
+      "description": "Môn học đã tạo trước đây",
+      "semester": "Fall 2026",
+      "status": "active",
+      "color": "#635BFF"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "subjectId": "s1",
+      "title": "Hoàn thành Assignment 1",
+      "description": "Xây dựng Todo List",
+      "type": "assignment",
+      "priority": "high",
+      "status": "completed",
+      "plannedDate": "2026-11-05",
+      "dueDate": "2026-11-10",
+      "estimatedMinutes": 180,
+      "completedAt": "2026-10-29T02:19:47.675Z"
+    },
+    {
+      "id": "studyflow-welcome-task",
+      "subjectId": "",
+      "title": "Khám phá StudyFlow",
+      "description": "Task được chuyển từ phiên bản trước.",
+      "type": "other",
+      "priority": "medium",
+      "status": "completed",
+      "plannedDate": "",
+      "dueDate": "",
+      "estimatedMinutes": 0,
+      "completedAt": "2026-10-29T02:19:50.274Z"
+    },
+    {
+      "id": "26647d94-1912-486e-94fa-536fa03703dc",
+      "subjectId": "",
+      "title": "Student 1",
+      "description": "Task được chuyển từ phiên bản trước.",
+      "type": "other",
+      "priority": "low",
+      "status": "completed",
+      "plannedDate": "",
+      "dueDate": "",
+      "estimatedMinutes": 0,
+      "completedAt": "2026-10-29T02:19:50.714Z"
+    },
+    {
+      "title": "Code C",
+      "description": "Làm bài",
+      "subjectId": "subject-web",
+      "type": "assignment",
+      "priority": "medium",
+      "status": "completed",
+      "plannedDate": "2026-10-22",
+      "dueDate": "2026-10-29",
+      "estimatedMinutes": 20,
+      "id": "3ad0f1e7-85ab-4d9b-9f18-92f2d0768a85",
+      "completedAt": "2026-10-29T02:30:25.420Z"
+    }
+  ],
+  "subtasks": [
+    {
+      "id": "st1",
+      "taskId": "t1",
+      "title": "Thiết kế giao diện",
+      "completed": false
+    }
+  ],
+  "studyGroups": [],
+  "studyPlans": [],
+  "focusSessions": [
+    {
+      "id": "fs1",
+      "taskId": "t1",
+      "durationMinutes": 25,
+      "completedAt": "2026-11-05T09:25:00+07:00"
+    },
+    {
+      "id": "e478c4e7-9644-489e-8c2a-184fce6e9562",
+      "taskId": "t1",
+      "durationMinutes": 25,
+      "completedAt": "2026-10-29T02:18:13.263Z"
+    },
+    {
+      "id": "e6f65004-1d00-4fe8-a2fa-e05524fd1fd7",
+      "taskId": "3ad0f1e7-85ab-4d9b-9f18-92f2d0768a85",
+      "durationMinutes": 25,
+      "completedAt": "2026-10-29T02:30:19.603Z"
+    }
+  ]
+}
